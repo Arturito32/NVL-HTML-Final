@@ -1,0 +1,18 @@
+El proceso de realizar esta página completa ha sido por una parte divertido y muy motivante y por otra parte desquiciante 
+a la hora de resolver problemas con el código. Como primer elemento de la página he creado el bloque fijo header cuyo ancho
+he puesto que sea del 100% para que ocupara toda la página.En sus atributos he especificado la position:fixed para que
+siempre aparezca en la página , y dentro de ella una lista con el display en inline block para ver las opciones en horizontal.
+
+Un problema que he tenido ha sido a la hora de alinear el logo con el nombre de Supercan, teniendo que investigar los atributos
+de justify-content y align-item, y no ha sido hasta el final el momento en el que he hallado la solución y se han alineado 
+los dos en la cabecera.La cabecera tiene un background que es una imagen de huellas de perro. Como pantalla de inicio he 
+creado un div el cual contiene una imagen y un claim.También he tenido problemas para situar este claim encima de la imagen 
+y centrado en la pantalla, pero al final investigando los atributos de position:relative y absolute he podido situar el texto 
+por encima, tambien usando el atributo z-index para especificar que esta detrás y delante.
+
+A la hora de crear la sección de nosotros no ha habido problema , tampoco lo ha habido a la hora de crear la tabla de precios,
+y no me ha costado alinearla en el centro al haber investigado ese aspecto en su momento.Lo mismo me ha pasado con la sección 
+de contacto , y algo que no he podido hallar ha sido como hacer la caja de texto de mensaje más grande.
+
+Al final de estructurar y crear toda la página he añadido etiquetas <a name=> para identificar las diferentes secciones y 
+anclarlas con un hipervínculo al nombre de cada sección en la cabecera, así como la pantalla de inicio también.
